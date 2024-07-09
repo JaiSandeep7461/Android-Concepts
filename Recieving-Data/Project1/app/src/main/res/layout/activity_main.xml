@@ -23,4 +23,30 @@
         android:layout_width="300dp"
         android:layout_height="300dp"/>
 
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:autoStart="true"
+        android:flipInterval="3000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prev"/>
+
+        <Button
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"/>
+
+    </RelativeLayout>
+
 </LinearLayout>
